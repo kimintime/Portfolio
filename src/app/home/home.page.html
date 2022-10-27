@@ -1,20 +1,55 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
     <ion-title>
-      Blank
+      Home
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class="container">
+    <div class="first">
+     <img src="../assets/selfieLg.jpg" />
+    </div>
+    <div class="second">
+      <h4>Welcome to my Portfolio</h4>
+      <p>Hi! My name’s Kim, and I’m currently more than halfway into my studies in 
+        Business Information Technology at Laurea University 
+        of Applied Sciences, focusing on software and application 
+        development. I also was recently accepted into Integrify’s 
+        Full Stack training program.
+      </p>
+      <p>I’m currently looking to take that next step on my journey, 
+        to apply what I’ve learned in real life projects in a workplace 
+        environment. If you’d like to know more, contact me through 
+        LinkedIn, I look forward to hearing from you! 
+      </p>
+      <p>Click on the projects below for more information, and don't forget click the menu if you'd like to know more.</p>
+    </div>
+  </div>
+  <div class="main">
+    <ion-grid [fixed]="true">
+      <ion-row>
+        <ion-col
+          *ngFor="let p of projects;">
+          <ion-card
+            (click)="selectedIndex = i" 
+            routerDirection="root"
+            [routerLink]="[p.url]"
+            detail="false"
+            [class.selected]="selectedIndex === i">
+            <img [alt]="[p.title]" [src]="[p.img]" />
+            <ion-card-header>
+              <ion-card-title>{{ p.title }}</ion-card-title>
+              <ion-card-subtitle>{{ p.subtitle }}</ion-card-subtitle>
+            </ion-card-header>
+            <ion-card-content>{{ p.description }}</ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
   </div>
 </ion-content>

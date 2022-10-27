@@ -1,0 +1,57 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      About
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <ion-avatar>
+    <img alt="Silhouette of a person's head" src="./assets/selfie.jpg" />
+  </ion-avatar>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>About Me</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Hi, and thanks for clicking through to read more about me. 
+      I come from more creative pursuits, the world of music and 
+      theatre, and more recently that of developmental editing.
+      </p> 
+      <p>I will always carry these things with me, but the great thing 
+      about having that creative drive, is that it can find other 
+      outlets, like software development. Like many of us in the 
+      tech world, I always had fun tinkering with computer stuff, 
+      but it was the AMKoodari program in 2020 where I found a true 
+      joy for it.
+      </p>
+      <p>Deciding to make that transition from editing full 
+      time, to pursuing life as a software developer, I applied to 
+      Laurea’s BIT program, and have found success there. Every level 
+      has been a challenge, but a welcome one. 
+      <p>Software Development doesn’t have an end goal, it’s rather in 
+      what you create, always learning new skills, honing old ones, and is a lifelong learning 
+      process, and that appeals to me. Life’s too short to not try new 
+      things, to not enjoy what you do.
+      </p> 
+      <p>When I’m not working on expanding 
+      my developer knowledge and skills, I enjoy listening to and making 
+      music, mostly playing one of my ukuleles nowadays. I also enjoy crafting 
+      jewelry pieces, and photography.
+      </p>
+    </ion-card-content>
+    <ion-button color="primary" (click)="openLinkedIn()">
+      <ion-icon slot="start" name="logo-linkedin"></ion-icon>
+      LinkedIn Profile
+    </ion-button>
+    <ion-button color="success" (click)="openPdf()">
+      <ion-icon slot="start" name="briefcase"></ion-icon>
+      My CV
+    </ion-button>
+  </ion-card>
+</ion-content>
+ 

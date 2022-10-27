@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>TodoList Project</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card>
+    <img alt="Todolist Page" src="./assets/todo.png" />
+    <ion-card-header>
+      <ion-card-title>Todo List Project</ion-card-title>
+      <ion-card-title>
+        <ion-icon  name="logo-javascript"></ion-icon>
+      </ion-card-title>
+      <ion-card-subtitle>JavaScript</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <p>My first Javascript project is a simple to-do list. It should 
+        remember tasks between visits, with the ability to edit all fields, 
+        undo delete, delete all tasks at once, as well as update the count 
+        of tasks.
+      </p>
+      <p>Feel free to play with it by clicking the app link below, or of
+        course to always check it out on Github.
+      </p>
+    </ion-card-content>
+    <ion-button color="tertiary" (click)="openTodo()">
+      <ion-icon slot="start" name="logo-github"></ion-icon>
+      Github
+    </ion-button>
+    <ion-button color="success" (click)="openApp()">
+      <ion-icon slot="start" name="calendar"></ion-icon>
+      TodoList
+    </ion-button>
+  </ion-card>
+</ion-content>

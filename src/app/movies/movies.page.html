@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>OMDB Project</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card>
+    <img alt="TMDB Page" src="./assets/tmdb.png" />
+    <ion-card-header>
+      <ion-card-title>The Movie Database Trending Movies Project</ion-card-title>
+      <ion-card-title>
+        <ion-icon  name="logo-ionic"></ion-icon>
+      </ion-card-title>
+      <ion-card-subtitle>Ionic Angular</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Simple app that connects to the The Movie Database API, allowing the 
+        user to click through trending movies. 
+      </p>
+      <p>As this is a coursework project based on a popular tutorial, this app has not
+        been deployed. However, feel to browse or clone it from my Github repo.
+        by clinking the link below.
+      </p>
+    </ion-card-content>
+    <ion-button color="tertiary" (click)="openTmdb()">
+      <ion-icon slot="start" name="logo-github"></ion-icon>
+      Github
+    </ion-button>
+  </ion-card>
+
+</ion-content>

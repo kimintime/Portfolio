@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>OMDB Project</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card>
+    <img alt="OMDB Page" src="./assets/omdb.png" />
+    <ion-card-header>
+      <ion-card-title>Open Movie Database Project</ion-card-title>
+      <ion-card-title>
+        <ion-icon  name="logo-javascript"></ion-icon>
+      </ion-card-title>
+      <ion-card-subtitle>JavaScript</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <p>The OMDB Movie Search app allows the user to search the OMDB 
+      for movie or tv shows, the page then displaying the results. 
+      </p>
+      <p>The results are shown in groups of not greater than ten for each page.
+      The user can click on each title to see more information. There’s the 
+      option to click through the pages of results in their sequential order, 
+      or skip to the last page, and scroll back from there, or to skip back to 
+      the first page of results.
+      </p>
+      <p>Please have a look over a look and explore the app, and have a look
+      at Github if you'd like to know more.
+      </p>
+    </ion-card-content>
+    <ion-button color="tertiary" (click)="openOmdb()">
+      <ion-icon slot="start" name="logo-github"></ion-icon>
+      Github
+    </ion-button>
+    <ion-button color="success" (click)="openApp()">
+      <ion-icon slot="start" name="videocam"></ion-icon>
+      OMDB App
+    </ion-button>
+  </ion-card>
+
+</ion-content>
