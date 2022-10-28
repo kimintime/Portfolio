@@ -12,7 +12,7 @@ export class HomePage {
       url: '../omdb',
       subtitle: 'JavaScript',
       img: './assets/omdb.png',
-      description: 'This is a prototype mockup of a blog from the Service Design course at Laurea, to design research-based solutions for Realia OY. The first article is clickable, featuring a form submission and animations.'
+      description: 'The OMDB Movie Search app allows the user to search the OMDB for movie or tv shows, the page then displaying the results. The results are shown in groups of not greater than ten for each page. The user can click on each title to see more information.'
     },
     {
       title: 'TMDB Project',
