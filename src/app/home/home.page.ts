@@ -12,7 +12,7 @@ export class HomePage {
       url: '../omdb',
       subtitle: 'JavaScript',
       img: './assets/omdb.png',
-      description: 'The OMDB Movie Search app allows the user to search the OMDB for movie or tv shows, the page then displaying the results. The results are shown in groups of not greater than ten for each page. The user can click on each title to see more information.'
+      description: 'The OMDB Movie Search app allows the user to search the OMDB for movie or tv shows, the page then displaying the results. The results are shown in groups of not greater than ten for each page.'
     },
     {
       title: 'TMDB Project',
