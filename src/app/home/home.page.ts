@@ -19,7 +19,7 @@ export class HomePage {
       url: '../movies',
       subtitle: 'Ionic Angular',
       img: './assets/tmdb.png',
-      description: 'Simple app that connects to the The Movie Database API, allowing the user to click through trending movies.'
+      description: 'Simple app that connects to the The Movie Database API.'
     },
     {
       title: 'Customer DB Project',
@@ -40,14 +40,14 @@ export class HomePage {
       url: '../todo',
       subtitle: 'JavaScript',
       img: './assets/todo.png',
-      description: 'My first Javascript project was a simple to-do list. It should remember tasks between visits, with the ability to edit all fields, undo delete, delete all tasks at once, as well as an updated count of tasks.'
+      description: 'My first Javascript project was a simple to-do list. It should remember tasks between visits, with the ability to edit and undo.'
     },
     {
       title: 'OmaRealia Project',
       url: '../omarealia',
       subtitle: 'HTML5',
       img: './assets/omarealia.png',
-      description: 'This is a prototype blog from the Service Design course at Laurea and Realia OY. The first article is clickable, featuring a form submission and animations.'
+      description: 'This is a prototype blog for Realia OY. The first article is clickable, featuring a forms and animations.'
     }
 
   ]
