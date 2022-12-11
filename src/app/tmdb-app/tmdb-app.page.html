@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>TMDB App Project</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card>
+    <img alt="TMDB-app" src="./assets/tmdbRN.png" />
+    <ion-card-header>
+      <ion-card-title>TMDB App Project</ion-card-title>
+      <ion-card-title>
+        <ion-icon  name="logo-react"></ion-icon>
+        <ion-icon  name="logo-nodejs"></ion-icon>
+      </ion-card-title>
+      <ion-card-subtitle>React Native, Node</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <p>The MovieDB App is a group project, made for the Introduction to Mobile Application Development and Building Cross Platform
+         courses at Laurea University of Applied Sciences. It allows the user to browse trending movies, as well as search for films, 
+         and TV shows, with the ability to tap through for more information on each result. The user can register, login and logout, 
+         as well as reset the password.
+      </p>
+      <p>The MovieDB app was made with React Native and NodeJS, built with Expo. It features a simple MySQL database to demonstrate 
+         user login, with hashed passwords that would secure user data in a real-world scenario. The keyboard type should also change 
+         depending on the type of text entry, and can be dismissed by tapping outside the text area throughout the application.
+      </p>
+      <p>My responsibility in the group was the UX/UI. I did all the styling, implementing dark and light modes, keyboard functionality,
+          as well as some help troubleshooting the user database, and of course anything else that needed doing.
+          The documentation was also my responsibility.
+      </p>
+      <p>Please have a look at the linked video, showing the flow and features of the app, and as always, have a look over at Github
+          for more.
+      </p>
+    </ion-card-content>
+    <ion-button color="tertiary" (click)="openTMDB()">
+      <ion-icon slot="start" name="logo-github"></ion-icon>
+      Github
+    </ion-button>
+    <ion-button color="success" (click)="openMovie()">
+      <ion-icon slot="start" name="videocam"></ion-icon>
+      TMDB App
+    </ion-button>
+  </ion-card>
+</ion-content>

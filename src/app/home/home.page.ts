@@ -22,6 +22,20 @@ export class HomePage {
       description: 'Simple app that connects to the The Movie Database API.'
     },
     {
+      title: 'TMDB App Project',
+      url: '../tmdb-app',
+      subtitle: 'React Native, Node',
+      img: './assets/tmdbRN.png',
+      description: 'Simple app that connects to the The Movie Database API, but with its own backend server, and more functionality.'
+    },
+    {
+      title: 'RestCountries Project',
+      url: '../restcountries',
+      subtitle: 'JavaScript',
+      img: './assets/restcountries.png',
+      description: 'Using the same bootstrapped template of the OMDB project, the RestCountries searches country info.'
+    },
+    {
       title: 'Customer DB Project',
       url: '../customers',
       subtitle: 'Node',
@@ -43,11 +57,11 @@ export class HomePage {
       description: 'My first Javascript project was a simple to-do list. It should remember tasks between visits, with the ability to edit and undo.'
     },
     {
-      title: 'OmaRealia Project',
-      url: '../omarealia',
+      title: 'Storefront Project',
+      url: '../storefront',
       subtitle: 'HTML5',
-      img: './assets/omarealia.png',
-      description: 'This is a prototype blog for Realia OY. The first article is clickable, featuring a forms and animations.'
+      img: './assets/storefront.png',
+      description: 'A default template Storefront project, exploring CSS design and animations.'
     }
 
   ]

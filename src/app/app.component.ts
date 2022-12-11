@@ -33,6 +33,16 @@ export class AppComponent {
       icon: 'logo-ionic'
     },
     {
+      title: 'TMDB App Project',
+      url: '/tmdb-app',
+      icon: 'logo-react'
+    },
+    {
+      title: 'RestCountries Project',
+      url: '/restcountries',
+      icon: 'logo-javascript'
+    },
+    {
       title: 'CustomerDB Project',
       url: '/customers',
       icon: 'logo-nodejs',
@@ -48,8 +58,8 @@ export class AppComponent {
       icon: 'logo-javascript'
     },
     {
-      title: 'OmaRealia Project',
-      url: '/omarealia',
+      title: 'Storefront Project',
+      url: '/storefront',
       icon: 'logo-html5'
     }
   ]

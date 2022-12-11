@@ -24,20 +24,28 @@ const routes: Routes = [
     loadChildren: () => import('./omdb/omdb.module').then( m => m.OmdbPageModule)
   },
   {
-    path: 'todo',
-    loadChildren: () => import('./todo/todo.module').then( m => m.TodoPageModule)
+    path: 'restcountries',
+    loadChildren: () => import('./restcountries/restcountries.module').then( m => m.RestcountriesPageModule)
   },
   {
-    path: 'omarealia',
-    loadChildren: () => import('./omarealia/omarealia.module').then( m => m.OmarealiaPageModule)
+    path: 'todo',
+    loadChildren: () => import('./todo/todo.module').then( m => m.TodoPageModule)
   },
   {
     path: 'movies',
     loadChildren: () => import('./movies/movies.module').then( m => m.MoviesPageModule)
   },
   {
+    path: 'tmdb-app',
+    loadChildren: () => import('./tmdb-app/tmdb-app.module').then( m => m.TmdbAppPageModule)
+  },
+  {
     path: 'customers',
     loadChildren: () => import('./customers/customers.module').then( m => m.CustomersPageModule)
+  },
+  {
+    path: 'storefront',
+    loadChildren: () => import('./storefront/storefront.module').then( m => m.StorefrontPageModule)
   },
   
 ];

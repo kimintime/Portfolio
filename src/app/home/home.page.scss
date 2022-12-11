@@ -1,14 +1,14 @@
-
-
 .container {
   background: #1C2329;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
   min-height: 200px;
-  width: 100%; 
+  width: 100%;
   align-items: center;
-  box-shadow: 0px 11px 15px 1px rgba(0,0,0,0.61);
-  -webkit-box-shadow: 0px 11px 15px 1px rgba(0,0,0,0.61);
-  -moz-box-shadow: 0px 11px 15px 1px rgba(0,0,0,0.61);
+  box-shadow: 0px 11px 15px 1px rgba(0, 0, 0, 0.61);
+  -webkit-box-shadow: 0px 11px 15px 1px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 0px 11px 15px 1px rgba(0, 0, 0, 0.61);
 
   img {
     padding: 10px;
@@ -43,19 +43,11 @@
 .main {
   padding: 16px;
   align-items: center;
-
-  ion-card {
-    max-width: 350px;
-    min-width: 300px;
-    height: 400px;
-  }
+ 
 }
 
-
-
-
-  
-
-
-
-
+ion-card {
+  max-width: 350px;
+  min-width: 300px;
+  height: 400px;
+}

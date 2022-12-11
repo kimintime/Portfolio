@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Restcountries Project</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card>
+    <img alt="restcountries" src="./assets/restcountries.png" />
+    <ion-card-header>
+      <ion-card-title>Restcountries Project</ion-card-title>
+      <ion-card-title>
+        <ion-icon  name="logo-javascript"></ion-icon>
+      </ion-card-title>
+      <ion-card-subtitle>JavaScript</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <p>A search page for country infomation, according to what's in the Restcountries api. Leaving the search empty,
+        returns all countries in the database. The user can click the flag or button for more information
+        about a given country.
+      </p>
+      <p>Feel free to have a look by clicking the link below, or of course to always check it out on Github.
+      </p>
+    </ion-card-content>
+    <ion-button color="tertiary" (click)="openRestcountries()">
+      <ion-icon slot="start" name="logo-github"></ion-icon>
+      Github
+    </ion-button>
+    <ion-button color="success" (click)="openCountrySearch()">
+      <ion-icon slot="start" name="desktop"></ion-icon>
+      Country Search
+    </ion-button>
+  </ion-card>
+</ion-content>
+
