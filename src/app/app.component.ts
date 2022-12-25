@@ -38,6 +38,11 @@ export class AppComponent {
       icon: 'logo-ionic'
     },
     {
+      title: 'Memegenerator Project',
+      url: '/memegenerator',
+      icon: 'logo-react'
+    },
+    {
       title: 'Budget App Project',
       url: '/budget',
       icon: 'logo-react',

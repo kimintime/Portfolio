@@ -47,6 +47,10 @@ const routes: Routes = [
     path: 'budget',
     loadChildren: () => import('./budget/budget.module').then( m => m.BudgetPageModule)
   },
+  {
+    path: 'memegenerator',
+    loadChildren: () => import('./memegenerator/memegenerator.module').then( m => m.MemegeneratorPageModule)
+  },
   
 ];
 

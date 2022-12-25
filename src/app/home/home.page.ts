@@ -29,6 +29,13 @@ export class HomePage {
       description: 'Simple app that connects to the The Movie Database API.'
     },
     {
+      title: 'Memegenerator Project',
+      url: '../memegenerator',
+      subtitle: 'React, Typescript',
+      img: './assets/meme.png',
+      description: 'Using a memegenerator API, generates memes, using either user text, or the default meme text.'
+    },
+    {
       title: 'Budget App Project',
       url: '../budget',
       subtitle: 'React, Typescript',
@@ -65,6 +72,8 @@ export class HomePage {
     }
 
   ]
+selectedIndex: number;
+i: number;
 
   constructor() {}
 
