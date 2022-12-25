@@ -28,24 +28,24 @@ export class AppComponent {
       icon: 'logo-javascript'
     },
     {
-      title: 'TMDB Project',
-      url: '/movies',
-      icon: 'logo-ionic'
-    },
-    {
       title: 'TMDB App Project',
       url: '/tmdb-app',
       icon: 'logo-react'
     },
     {
+      title: 'TMDB Project',
+      url: '/movies',
+      icon: 'logo-ionic'
+    },
+    {
+      title: 'Budget App Project',
+      url: '/budget',
+      icon: 'logo-react',
+    },
+    {
       title: 'RestCountries Project',
       url: '/restcountries',
       icon: 'logo-javascript'
-    },
-    {
-      title: 'CustomerDB Project',
-      url: '/customers',
-      icon: 'logo-nodejs',
     },
     {
       title: 'Userlist Project',

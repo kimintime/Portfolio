@@ -40,12 +40,12 @@ const routes: Routes = [
     loadChildren: () => import('./tmdb-app/tmdb-app.module').then( m => m.TmdbAppPageModule)
   },
   {
-    path: 'customers',
-    loadChildren: () => import('./customers/customers.module').then( m => m.CustomersPageModule)
-  },
-  {
     path: 'storefront',
     loadChildren: () => import('./storefront/storefront.module').then( m => m.StorefrontPageModule)
+  },
+  {
+    path: 'budget',
+    loadChildren: () => import('./budget/budget.module').then( m => m.BudgetPageModule)
   },
   
 ];

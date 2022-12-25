@@ -15,6 +15,13 @@ export class HomePage {
       description: 'The OMDB Movie Search app allows the user to search the OMDB for movie or tv shows, the page then displaying the results. The results are shown in groups of not greater than ten for each page.'
     },
     {
+      title: 'TMDB App Project',
+      url: '../tmdb-app',
+      subtitle: 'React Native, Node',
+      img: './assets/tmdbRN.png',
+      description: 'Similar to project in Ionic Angular, connects to the The Movie Database API, but with its own backend server, and more functionality.'
+    },
+    {
       title: 'TMDB Project',
       url: '../movies',
       subtitle: 'Ionic Angular',
@@ -22,25 +29,18 @@ export class HomePage {
       description: 'Simple app that connects to the The Movie Database API.'
     },
     {
-      title: 'TMDB App Project',
-      url: '../tmdb-app',
-      subtitle: 'React Native, Node',
-      img: './assets/tmdbRN.png',
-      description: 'Simple app that connects to the The Movie Database API, but with its own backend server, and more functionality.'
+      title: 'Budget App Project',
+      url: '../budget',
+      subtitle: 'React, Typescript',
+      img: './assets/budget.png',
+      description: 'Simple budget app that tracks income and expenses, savings, as well as a savings target.'
     },
     {
       title: 'RestCountries Project',
       url: '../restcountries',
       subtitle: 'JavaScript',
       img: './assets/restcountries.png',
-      description: 'Using the same bootstrapped template of the OMDB project, the RestCountries searches country info.'
-    },
-    {
-      title: 'Customer DB Project',
-      url: '../customers',
-      subtitle: 'Node',
-      img: './assets/customer.png',
-      description: 'Simple database app that allows the user to add entries to the database.'
+      description: 'Using the same bootstrapped template of the OMDB project, RestCountries searches country info and returns the results for each country.'
     },
     {
       title: 'Userlist Project',
