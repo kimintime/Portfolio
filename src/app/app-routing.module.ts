@@ -16,10 +16,6 @@ const routes: Routes = [
     loadChildren: () => import('./about/about.module').then( m => m.AboutPageModule)
   },
   {
-    path: 'userlist',
-    loadChildren: () => import('./userlist/userlist.module').then( m => m.UserlistPageModule)
-  },
-  {
     path: 'omdb',
     loadChildren: () => import('./omdb/omdb.module').then( m => m.OmdbPageModule)
   },
@@ -50,6 +46,10 @@ const routes: Routes = [
   {
     path: 'memegenerator',
     loadChildren: () => import('./memegenerator/memegenerator.module').then( m => m.MemegeneratorPageModule)
+  },
+  {
+    path: 'frontend',
+    loadChildren: () => import('./frontend/frontend.module').then( m => m.FrontendPageModule)
   },
   
 ];

@@ -8,11 +8,25 @@ import { Component } from '@angular/core';
 export class HomePage {
   projects = [
     {
+      title: 'E-commerce Website Project',
+      url: '../frontend',
+      subtitle: 'React, Redux, Typescript',
+      img: './assets/frontend.png',
+      description: 'A mockup full ecommerce website, featuring products and their categories, a shopping cart, and user login with admin functionality.'
+    },
+    {
       title: 'OMDB Project',
       url: '../omdb',
       subtitle: 'JavaScript',
       img: './assets/omdb.png',
       description: 'The OMDB Movie Search app allows the user to search the OMDB for movie or tv shows, the page then displaying the results. The results are shown in groups of not greater than ten for each page.'
+    },
+    {
+      title: 'Budget App Project',
+      url: '../budget',
+      subtitle: 'React, Typescript',
+      img: './assets/budget.png',
+      description: 'Simple budget app that tracks income and expenses, savings, as well as a savings target.'
     },
     {
       title: 'TMDB App Project',
@@ -36,25 +50,11 @@ export class HomePage {
       description: 'Using a memegenerator API, generates memes, using either user text, or the default meme text.'
     },
     {
-      title: 'Budget App Project',
-      url: '../budget',
-      subtitle: 'React, Typescript',
-      img: './assets/budget.png',
-      description: 'Simple budget app that tracks income and expenses, savings, as well as a savings target.'
-    },
-    {
       title: 'RestCountries Project',
       url: '../restcountries',
       subtitle: 'JavaScript',
       img: './assets/restcountries.png',
       description: 'Using the same bootstrapped template of the OMDB project, RestCountries searches country info and returns the results for each country.'
-    },
-    {
-      title: 'Userlist Project',
-      url: '../userlist',
-      subtitle: 'React',
-      img: './assets/userlist.png',
-      description: 'A collection of user accounts that allow for clicking for more information. Note this is more about the design, a project where I wasn’t yet very clear on routing.'
     },
     {
       title: 'Todo List',

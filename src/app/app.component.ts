@@ -23,9 +23,19 @@ export class AppComponent {
 
   projectPages = [
     {
+      title: 'Webstore Project',
+      url: '/frontend',
+      icon: 'logo-react'
+    },
+    {
       title: 'OMDB Project',
       url: '/omdb',
       icon: 'logo-javascript'
+    },
+    {
+      title: 'Budget App Project',
+      url: '/budget',
+      icon: 'logo-react',
     },
     {
       title: 'TMDB App Project',
@@ -43,19 +53,9 @@ export class AppComponent {
       icon: 'logo-react'
     },
     {
-      title: 'Budget App Project',
-      url: '/budget',
-      icon: 'logo-react',
-    },
-    {
       title: 'RestCountries Project',
       url: '/restcountries',
       icon: 'logo-javascript'
-    },
-    {
-      title: 'Userlist Project',
-      url: '/userlist',
-      icon: 'logo-react'
     },
     {
       title: 'Todo List Project',
