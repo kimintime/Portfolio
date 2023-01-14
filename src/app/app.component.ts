@@ -11,7 +11,7 @@ export class AppComponent {
   appPages = [
     {
       title: 'Home',
-      url: '',
+      url: '/',
       icon: 'home'
     },
     {
