@@ -23,6 +23,11 @@ export class AppComponent {
 
   projectPages = [
     {
+      title: 'Library Project',
+      url: '/library',
+      icon: 'logo-react'
+    },
+    {
       title: 'Webstore Project',
       url: '/frontend',
       icon: 'logo-react'
@@ -48,6 +53,11 @@ export class AppComponent {
       icon: 'logo-ionic'
     },
     {
+      title: 'Booking App Project',
+      url: '/bookingapp',
+      icon: 'logo-microsoft'
+    },
+    {
       title: 'Memegenerator Project',
       url: '/memegenerator',
       icon: 'logo-react'
@@ -67,18 +77,18 @@ export class AppComponent {
       url: '/storefront',
       icon: 'logo-html5'
     }
-  ]
+  ];
 
   openGithub(){
-    window.open("https://github.com/kimintime")
+    window.open('https://github.com/kimintime');
   }
 
   openPdf() {
-    window.open("/assets/CV.PDF")
+    window.open('/assets/CV.PDF');
   }
 
   openLinkedIn() {
-    window.open("https://www.linkedin.com/in/kimberly-ruohio-1200/")
+    window.open('https://www.linkedin.com/in/kimberly-ruohio-1200/');
   }
 
 }

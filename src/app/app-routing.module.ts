@@ -51,6 +51,14 @@ const routes: Routes = [
     path: 'frontend',
     loadChildren: () => import('./frontend/frontend.module').then( m => m.FrontendPageModule)
   },
+  {
+    path: 'library',
+    loadChildren: () => import('./library/library.module').then( m => m.LibraryPageModule)
+  },
+  {
+    path: 'bookingapp',
+    loadChildren: () => import('./bookingapp/bookingapp.module').then( m => m.BookingappPageModule)
+  },
   
 ];
 
