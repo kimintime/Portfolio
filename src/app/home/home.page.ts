@@ -10,8 +10,8 @@ export class HomePage {
     {
       title: 'Fullstack Library Project',
       url: '../library',
-      subtitle: 'React, Redux, Typescript, C#',
-      img: './assets/frontend.png',
+      subtitle: 'React, Redux, Typescript, C#, PostgreSQL',
+      img: './assets/librarymain.png',
       description: 'A full-service library website with its own database, user authentication and authorization, with many admin features.'
     },
     {
@@ -24,9 +24,16 @@ export class HomePage {
     {
       title: 'OMDB Project',
       url: '../omdb',
-      subtitle: 'JavaScript',
+      subtitle: 'HTML5, CSS3, Bootstrap, JavaScript',
       img: './assets/omdb.png',
       description: 'The OMDB Movie Search app allows the user to search the OMDB for movie or tv shows, the page displaying the results.'
+    },
+    {
+      title: 'Digital Living Lab Booking Project',
+      url: '../bookingapp',
+      subtitle: 'Microsoft PowerBi, Sharepoint',
+      img: './assets/BookingApp.png',
+      description: `App project for Laura's Digital Living Lab, allows users to checkout items from the lab, and for admins to maintain it.`
     },
     {
       title: 'Budget App Project',
@@ -59,21 +66,21 @@ export class HomePage {
     {
       title: 'RestCountries Project',
       url: '../restcountries',
-      subtitle: 'JavaScript',
+      subtitle: 'HTML5, CSS3, Bootstrap, JavaScript',
       img: './assets/restcountries.png',
       description: 'Using the same template of the OMDB project, RestCountries searches country info and returns the results.'
     },
     {
       title: 'Todo List',
       url: '../todo',
-      subtitle: 'JavaScript',
+      subtitle: 'HTML5, CSS3, JavaScript',
       img: './assets/todo.png',
       description: 'A simple to-do list. It should remember tasks between visits, with the ability to edit and undo.'
     },
     {
       title: 'Storefront Project',
       url: '../storefront',
-      subtitle: 'HTML5',
+      subtitle: 'HTML5, CSS3',
       img: './assets/storefront.png',
       description: 'A default template Storefront project, exploring CSS design and animations.'
     }

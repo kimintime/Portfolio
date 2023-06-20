@@ -7,15 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OmdbPage implements OnInit {
 
+  constructor() { }
+
   openOmdb() {
-    window.open("https://github.com/kimintime/OMDB")
+    window.open('https://github.com/kimintime/OMDB');
   }
 
   openApp() {
-    window.open("https://omdbmoviesearch.netlify.app")
+    window.open('https://omdbmoviesearch.netlify.app');
   }
-  
-  constructor() { }
 
   ngOnInit() {
   }

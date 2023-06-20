@@ -7,15 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StorefrontPage implements OnInit {
 
+  constructor() { }
+
   openStorefront() {
-    window.open("https://github.com/kimintime/fs13-CSS-website-public")
+    window.open('https://github.com/kimintime/fs13-CSS-website-public');
   }
 
   openSite() {
-    window.open("https://kimintime.github.io/fs13-CSS-website-public/")
+    window.open('https://kimintime.github.io/fs13-CSS-website-public/');
   }
-
-  constructor() { }
 
   ngOnInit() {
   }

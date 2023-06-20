@@ -1,9 +1,44 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>library</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Fullstack</ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content>
+  <ion-card>
+    <img alt="ecommerce app" src="./assets/library.gif" />
+    <ion-card-header>
+      <ion-card-title>Fullstack Library Project</ion-card-title>
+      <ion-card-title>
+        <ion-icon  name="logo-react"></ion-icon>
+      </ion-card-title>
+      <ion-card-subtitle>React, Redux, TypeScript, C#, PostgreSQL</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <p>This project represents the culmination of everything I learned in Integrify's Fullstack course. The backend was built
+        with C# ASP.NET Entity Framework with a PostgreSQL database. The frontend is structured using React Redux with Typescript
+        to create a just-about fully-functioning online Library. It features a structure that should be familiar, allowing the user
+        to browse books by author, categories, and publisher. Users can check their loan history, and edit their profiles.
+      </p>
+      <p>The bulk of library features are on the admin side. The site features a side container admin panel, only available to authorized
+        users, featuring full CRUD funtionality for all books, and their attributes, as well as processing loans and returns. Please see the
+        site for instructions on how to access the admin features. 
 
+      </p>
+      <p>Feel free to have a look by clicking the link below, or of course to always check it out on Github.
+      </p>
+    </ion-card-content>
+    <ion-button color="tertiary" (click)="openFullstack()">
+      <ion-icon slot="start" name="logo-github"></ion-icon>
+      Github
+    </ion-button>
+    <ion-button color="success" (click)="openFullstackApp()">
+      <ion-icon slot="start" name="desktop"></ion-icon>
+      Fullstack App
+    </ion-button>
+  </ion-card>
 </ion-content>
+

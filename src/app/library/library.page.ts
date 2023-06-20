@@ -9,6 +9,14 @@ export class LibraryPage implements OnInit {
 
   constructor() { }
 
+  openFullstack() {
+    window.open('https://github.com/kimintime/fs13-FullStack-public');
+  }
+
+  openFullstackApp() {
+    window.open('https://kitlibrary.netlify.app');
+  }
+
   ngOnInit() {
   }
 

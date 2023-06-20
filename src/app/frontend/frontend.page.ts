@@ -7,15 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FrontendPage implements OnInit {
 
+  constructor() { }
+
   openFrontend() {
-    window.open("https://github.com/kimintime/fs13-frontend-project-public")
+    window.open('https://github.com/kimintime/fs13-frontend-project-public');
   }
 
   openFrontendApp() {
-    window.open("https://kitshopping.netlify.app")
+    window.open('https://kitshopping.netlify.app');
   }
-
-  constructor() { }
 
   ngOnInit() {
   }
