@@ -87,6 +87,10 @@ export class AppComponent {
     window.open('/assets/CV.PDF');
   }
 
+  openIntegrify() {
+    window.open('/assets/Kimberly_Ruohio.pdf');
+  }
+
   openLinkedIn() {
     window.open('https://www.linkedin.com/in/kimberly-ruohio-1200/');
   }
