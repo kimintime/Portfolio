@@ -6,16 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./memegenerator.page.scss'],
 })
 export class MemegeneratorPage implements OnInit {
+  constructor() { }
 
   openMeme() {
-    window.open("https://github.com/kimintime/memegenerator")
+    window.open('https://github.com/kimintime/memegenerator');
   }
 
   openMemegen() {
-    window.open("https://kitmemegenerator.netlify.app")
+    window.open('https://kitmemegenerator.netlify.app');
   }
-
-  constructor() { }
 
   ngOnInit() {
   }

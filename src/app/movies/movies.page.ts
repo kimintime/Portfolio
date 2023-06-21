@@ -6,12 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./movies.page.scss'],
 })
 export class MoviesPage implements OnInit {
+  constructor() { }
 
   openTmdb() {
-    window.open("https://github.com/kimintime/myMovieApp")
+    window.open('https://github.com/kimintime/myMovieApp');
   }
-
-  constructor() { }
 
   ngOnInit() {
   }

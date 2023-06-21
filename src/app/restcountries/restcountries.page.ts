@@ -6,17 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./restcountries.page.scss'],
 })
 export class RestcountriesPage implements OnInit {
+  constructor() { }
 
   openRestcountries() {
-    window.open("https://github.com/kimintime/fs13-JavaScript-public")
+    window.open('https://github.com/kimintime/fs13-JavaScript-public');
   }
 
   openCountrySearch() {
-    window.open("https://kitrestcountries.netlify.app")
+    window.open('https://kitrestcountries.netlify.app');
   }
-
-
-  constructor() { }
 
   ngOnInit() {
   }

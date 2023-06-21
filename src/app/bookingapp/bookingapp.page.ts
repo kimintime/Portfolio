@@ -9,6 +9,14 @@ export class BookingappPage implements OnInit {
 
   constructor() { }
 
+  openBooking() {
+    window.open('https://github.com/kimintime/MDS_Group9-Booking-App');
+  }
+
+  openBookingApp() {
+    window.open('/assets/BookingApp.mp4');
+  }
+
   ngOnInit() {
   }
 

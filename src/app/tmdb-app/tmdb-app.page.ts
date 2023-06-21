@@ -6,16 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tmdb-app.page.scss'],
 })
 export class TmdbAppPage implements OnInit {
+  constructor() { }
 
   openTMDB() {
-    window.open("https://github.com/kimintime/tmdb-project")
+    window.open('https://github.com/kimintime/tmdb-project');
   }
 
   openMovie() {
-    window.open("/assets/omdb.mov")
+    window.open('/assets/omdb.mov');
   }
-
-  constructor() { }
 
   ngOnInit() {
   }

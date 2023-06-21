@@ -6,16 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.page.scss'],
 })
 export class AboutPage implements OnInit {
+  constructor() { }
 
   openLinkedIn() {
-    window.open("https://www.linkedin.com/in/kimberly-ruohio-1200/")
+    window.open('https://www.linkedin.com/in/kimberly-ruohio-1200/');
   }
 
   openPdf() {
-    window.open("./assets/CV.PDF")
+    window.open('./assets/CV.PDF');
   }
-
-  constructor() { }
 
   ngOnInit() {
   }

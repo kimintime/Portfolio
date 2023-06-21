@@ -38,6 +38,11 @@ export class AppComponent {
       icon: 'logo-javascript'
     },
     {
+      title: 'Booking App Project',
+      url: '/bookingapp',
+      icon: 'logo-microsoft'
+    },
+    {
       title: 'Budget App Project',
       url: '/budget',
       icon: 'logo-react',
@@ -51,11 +56,6 @@ export class AppComponent {
       title: 'TMDB Project',
       url: '/movies',
       icon: 'logo-ionic'
-    },
-    {
-      title: 'Booking App Project',
-      url: '/bookingapp',
-      icon: 'logo-microsoft'
     },
     {
       title: 'Memegenerator Project',

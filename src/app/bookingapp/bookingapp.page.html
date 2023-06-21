@@ -1,9 +1,39 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>bookingapp</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Booking App</ion-title>
   </ion-toolbar>
 </ion-header>
-
-<ion-content>
-
+<ion-content> 
+  <ion-card>
+    <img alt="ecommerce app" src="./assets/BookingApp.png" />
+    <ion-card-header>
+      <ion-card-title>Laurea Digital Living Lab Booking App Project</ion-card-title>
+      <ion-card-title>
+        <ion-icon name="logo-microsoft"></ion-icon>
+      </ion-card-title>
+      <ion-card-subtitle>Microsoft Power Bi, Sharepoint Lists</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <p>App project for Laura's Digital Living Lab, allows users to checkout items from the lab, and for admins to maintain it.
+        This was a group project, the project which already existed. Other group members saw to the lists and their contents, while
+        My role was in rebuilding the application, and adding the ability to book, and for admins to handle bookings and returns.
+      </p>
+      <p>As you have to have an account at Laurea to access the app, have a look at the app demo, and of course to browse its full
+        documentation over at Github.
+      </p>
+    </ion-card-content>
+    <ion-button color="tertiary" (click)="openBooking()">
+      <ion-icon slot="start" name="logo-github"></ion-icon>
+      Github
+    </ion-button>
+    <ion-button color="success" (click)="openBookingApp()">
+      <ion-icon slot="start" name="videocam"></ion-icon>
+      Booking App
+    </ion-button>
+  </ion-card>
 </ion-content>
+

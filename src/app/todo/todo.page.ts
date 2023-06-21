@@ -6,16 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./todo.page.scss'],
 })
 export class TodoPage implements OnInit {
+  constructor() { }
 
   openTodo() {
-    window.open("https://github.com/kimintime/DontForget")
+    window.open('https://github.com/kimintime/DontForget');
   }
 
   openApp() {
-    window.open("https://kimintime.netlify.app")
+    window.open('https://kimintime.netlify.app');
   }
-
-  constructor() { }
 
   ngOnInit() {
   }
