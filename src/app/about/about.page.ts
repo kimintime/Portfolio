@@ -12,6 +12,10 @@ export class AboutPage implements OnInit {
     window.open('https://www.linkedin.com/in/kimberly-ruohio-1200/');
   }
 
+  openGithub() {
+    window.open('https://github.com/kimintime');
+  }
+
   openPdf() {
     window.open('./assets/CV.PDF');
   }
