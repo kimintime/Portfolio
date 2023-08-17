@@ -13,7 +13,8 @@ export class TmdbAppPage implements OnInit {
   }
 
   openMovie() {
-    window.open('/assets/omdb.mov');
+   // window.open('/assets/omdb.mov');
+   window.open('/assets/omdb.mov', '_blank');
   }
 
   ngOnInit() {
