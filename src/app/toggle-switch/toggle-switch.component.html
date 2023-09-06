@@ -1,0 +1,8 @@
+<ion-item >
+  <ion-icon slot="start" name="moon"></ion-icon>
+  <ion-label>
+    Toggle Dark Theme
+  </ion-label>
+  <ion-toggle id="themeToggle" [checked]="darkModeActivated"
+  (ionChange)="toggleDarkMode($event)" slot="end"></ion-toggle>
+</ion-item>

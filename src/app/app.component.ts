@@ -79,7 +79,7 @@ export class AppComponent {
     }
   ];
 
-  openGithub(){
+  openGithub() {
     window.open('https://github.com/kimintime');
   }
 
