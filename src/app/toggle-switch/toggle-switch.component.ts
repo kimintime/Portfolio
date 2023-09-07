@@ -1,37 +1,37 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-toggle-switch',
-  templateUrl: './toggle-switch.component.html',
-  styleUrls: ['./toggle-switch.component.scss'],
+  templateUrl: 'toggle-switch.component.html',
 })
-export class ToggleSwitchComponent {
-  darkModeActivated = false;
-  colorList: any = [
-    'primary',
-    'secondary',
-    'tertiary',
-    'success',
-    'warning',
-    'danger',
-    'dark',
-    'medium',
-  ];
+export class ToggleSwitchComponent implements OnInit {
+  themeToggle = false;
 
-  constructor() { }
+  ngOnInit() {
+    // Use matchMedia to check the user preference
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
 
-  toggleDarkMode(ev: any) {
-    const toggleChecked = ev.detail.checked;
-    const systemDark = window.matchMedia('(prefers-color-scheme: dark)');
-    if (systemDark.matches) {
-      if (toggleChecked) {
-        document.body.setAttribute('data-theme', 'dark');
-      } else {
-        document.body.setAttribute('data-theme', 'light');
-      }
-    } else {
-      this.darkModeActivated = false;
-      console.log('Dark mode not supported for this device');
-    }
+    // Initialize the dark theme based on the initial
+    // value of the prefers-color-scheme media query
+    this.initializeDarkTheme(prefersDark.matches);
+
+    // Listen for changes to the prefers-color-scheme media query
+    prefersDark.addEventListener('change', (mediaQuery) => this.initializeDarkTheme(mediaQuery.matches));
+  }
+
+  // Check/uncheck the toggle and update the theme based on isDark
+  initializeDarkTheme(isDark) {
+    this.themeToggle = isDark;
+    this.toggleDarkTheme(isDark);
+  }
+
+  // Listen for the toggle check/uncheck to toggle the dark theme
+  toggleChange(ev) {
+    this.toggleDarkTheme(ev.detail.checked);
+  }
+
+  // Add or remove the "dark" class on the document body
+  toggleDarkTheme(shouldAdd) {
+    document.body.classList.toggle('dark', shouldAdd);
   }
 }

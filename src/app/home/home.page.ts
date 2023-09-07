@@ -31,7 +31,7 @@ export class HomePage {
     {
       title: 'Digital Living Lab Booking Project',
       url: '../bookingapp',
-      subtitle: 'Microsoft PowerBi, Sharepoint',
+      subtitle: 'Microsoft PowerApps, Sharepoint',
       img: './assets/BookingApp.png',
       description: `App project for Laura's Digital Living Lab, allows users to checkout items from the lab, and for admins to maintain it.`
     },
