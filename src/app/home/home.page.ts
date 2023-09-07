@@ -22,6 +22,13 @@ export class HomePage {
       description: 'A mockup full ecommerce website, featuring products, categories, a cart, and user login with admin functionality.'
     },
     {
+      title: 'Portfolio Project',
+      url: '../portfolio',
+      subtitle: 'Ionic, Angular, Typescript',
+      img: './assets/portfolio.png',
+      description: `The website you're looking at right now, built as a responsive mobile app with user-selectable light and dark modes.`
+    },
+    {
       title: 'OMDB Project',
       url: '../omdb',
       subtitle: 'HTML5, CSS3, Bootstrap, JavaScript',

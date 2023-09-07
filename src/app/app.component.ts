@@ -33,6 +33,11 @@ export class AppComponent {
       icon: 'logo-react'
     },
     {
+      title: 'Portfolio Project',
+      url: '/portfolio',
+      icon: 'logo-ionic'
+    },
+    {
       title: 'OMDB Project',
       url: '/omdb',
       icon: 'logo-javascript'

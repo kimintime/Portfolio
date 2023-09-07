@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Portfolio</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card>
+    <img alt="portfolio app" src="./assets/portfolio_dark.png" />
+    <ion-card-header>
+      <ion-card-title>Portfolio Project</ion-card-title>
+      <ion-card-title>
+        <ion-icon  name="logo-ionic"></ion-icon>
+        <ion-icon name="logo-angular"></ion-icon>
+      </ion-card-title>
+      <ion-card-subtitle>Ionic, Angular, TypeScript</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <p>The project of the very site you're looking at right now. If you're reading this, then welcome to the demo! It serves
+        as my second forray into Ionic Angular. I chose to use it after one of my university courses, to better get to know it,
+        and because not everything in the world needs to be built with React.
+      </p>
+      <p>The website is built to be responsive, and features a side menu, and user selectable light and dark modes. Feel free
+        to have a look around on Github if you're interested in the site's code.
+      </p>
+      
+    </ion-card-content>
+    <ion-button color="tertiary" (click)="openPortfolioApp()">
+      <ion-icon slot="start" name="logo-github"></ion-icon>
+      Github
+    </ion-button>
+  </ion-card>
+</ion-content>
+

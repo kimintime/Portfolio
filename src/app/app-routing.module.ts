@@ -59,6 +59,10 @@ const routes: Routes = [
     path: 'bookingapp',
     loadChildren: () => import('./bookingapp/bookingapp.module').then( m => m.BookingappPageModule)
   },
+  {
+    path: 'portfolio',
+    loadChildren: () => import('./portfolio/portfolio.module').then( m => m.PortfolioPageModule)
+  },
 ];
 
 @NgModule({
