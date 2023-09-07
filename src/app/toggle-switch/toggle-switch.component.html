@@ -1,4 +1,4 @@
-<ion-item [translucent]="true" >
-  <ion-icon slot="start" name="moon"></ion-icon>
+<ion-item color="none" lines="none">
+  <ion-icon slot="start" [name]="themeToggle ? 'sunny' : 'moon'"></ion-icon>
   <ion-toggle id="themeToggle" [(ngModel)]="themeToggle" (ionChange)="toggleChange($event)" slot="end"></ion-toggle>
 </ion-item>
