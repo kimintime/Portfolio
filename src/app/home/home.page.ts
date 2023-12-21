@@ -15,6 +15,13 @@ export class HomePage {
       description: 'A full-service library website with its own database, user authentication and authorization, with many admin features.'
     },
     {
+      title: 'Harmonious HR Project',
+      url: '../harmonious',
+      subtitle: 'Python, Django, PostgreSQL',
+      img: './assets/harmonious.png',
+      description: 'An HR task manager for the Mimmit Koodaa 2023 Hackathon, for automation of common HR tasks.'
+    },
+    {
       title: 'E-commerce Website Project',
       url: '../frontend',
       subtitle: 'React, Redux, Typescript',

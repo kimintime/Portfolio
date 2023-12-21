@@ -28,6 +28,11 @@ export class AppComponent {
       icon: 'logo-react'
     },
     {
+      title: 'Harmonious HR Project',
+      url: '/harmonious',
+      icon: 'logo-python'
+    },
+    {
       title: 'Webstore Project',
       url: '/frontend',
       icon: 'logo-react'

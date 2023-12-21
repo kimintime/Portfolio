@@ -63,6 +63,10 @@ const routes: Routes = [
     path: 'portfolio',
     loadChildren: () => import('./portfolio/portfolio.module').then( m => m.PortfolioPageModule)
   },
+  {
+    path: 'harmonious',
+    loadChildren: () => import('./harmonious/harmonious.module').then( m => m.HarmoniousPageModule)
+  },
 ];
 
 @NgModule({

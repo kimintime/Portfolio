@@ -1,0 +1,26 @@
+ion-card {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 15px;
+
+    img {
+        width: 100%;
+    }
+
+    ion-card-title {
+        text-align: center;
+    }
+
+    ion-button {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+        width: 60%;
+        margin-bottom: 15px;
+    }
+}
+
+p {
+    padding: 5px;
+}

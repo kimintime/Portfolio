@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Harmonious HR Project</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card>
+    <img alt="harmonious app" src="./assets/harmonious.png" />
+    <ion-card-header>
+      <ion-card-title>Harmonious HR Task Manager Project</ion-card-title>
+      <ion-card-title>
+        <ion-icon  name="logo-python"></ion-icon>
+        <ion-icon  name="logo-javascript"></ion-icon>
+        <ion-icon  name="logo-html5"></ion-icon>
+        <ion-icon  name="logo-css3"></ion-icon>
+      </ion-card-title>
+      <ion-card-subtitle>Python, Django, PostgreSQL</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Harmonious HR Task Manager was our team's entry to the Mimmit Koodaa 2023 Hackathon. Our team consisted of four members, and I worked
+        together with another developer, where we worked very much in tandem, and is my first forray into using Python and Django. The basic bones
+        of the app are that of a todo list. This serves as a demo for what the app intends to be, a proof of concept to show how common HR tasks
+        can be automated, and how the app can be used to track and manage these tasks.
+      </p>
+      <p>The app features user authentication and authorization, uploading of files, and a basic todo list, and of course the demo of task 
+        automation. For more information, please check out the Harmonious HR Task Manager demo video on Youtube.
+      </p>
+      <p>Feel free to have a look at the live demo by clicking the link below, or of course to always check it out on Github.
+      </p>
+    </ion-card-content>
+    <ion-button color="danger" (click)="openHarmoniousYT()">
+      <ion-icon slot="start" name="logo-youtube"></ion-icon>
+      YouTube
+    </ion-button>
+    <ion-button color="tertiary" (click)="openHarmonious()">
+      <ion-icon slot="start" name="logo-github"></ion-icon>
+      Github
+    </ion-button>
+    <ion-button color="success" (click)="openHarmoniousApp()">
+      <ion-icon slot="start" name="desktop"></ion-icon>
+      Harmonious App
+    </ion-button>
+  </ion-card>
+</ion-content>
+
