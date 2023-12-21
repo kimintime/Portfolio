@@ -101,6 +101,10 @@ export class AppComponent {
     window.open('/assets/Kimberly_Ruohio.pdf');
   }
 
+  openHackathon() {
+    window.open('/assets/Kimberly4.pdf');
+  }
+
   openLinkedIn() {
     window.open('https://www.linkedin.com/in/kimberly-ruohio-1200/');
   }
