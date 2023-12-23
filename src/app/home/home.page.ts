@@ -91,14 +91,6 @@ export class HomePage {
       img: './assets/todo.png',
       description: 'A simple to-do list. It should remember tasks between visits, with the ability to edit and undo.'
     },
-    {
-      title: 'Storefront Project',
-      url: '../storefront',
-      subtitle: 'HTML5, CSS3',
-      img: './assets/storefront.png',
-      description: 'A default template Storefront project, exploring CSS design and animations.'
-    }
-
   ];
 selectedIndex: number;
 i: number;

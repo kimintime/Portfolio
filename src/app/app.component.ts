@@ -82,11 +82,6 @@ export class AppComponent {
       url: '/todo',
       icon: 'logo-javascript'
     },
-    {
-      title: 'Storefront Project',
-      url: '/storefront',
-      icon: 'logo-html5'
-    }
   ];
 
   openGithub() {
