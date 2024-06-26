@@ -13,10 +13,6 @@ export class HarmoniousPage implements OnInit {
     window.open('https://github.com/kimintime/Harmonious_HR_taskmanager/tree/kim');
   }
 
-  openHarmoniousApp() {
-    window.open('https://harmonioushr.azurewebsites.net');
-  }
-
   openHarmoniousYT() {
     window.open('https://youtu.be/CnMU3AfcVCA');
   }

@@ -92,6 +92,10 @@ export class AppComponent {
     window.open('/assets/CV.PDF');
   }
 
+  openDiploma() {
+    window.open('/assets/diploma.PDF');
+  }
+
   openIntegrify() {
     window.open('/assets/Kimberly_Ruohio.pdf');
   }

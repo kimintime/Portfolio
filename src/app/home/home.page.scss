@@ -11,7 +11,7 @@
   img {
     padding: 10px;
     margin-right: 20px;
-    width: 350px;
+    width: 275px;
     min-width: 150px;
     border-radius: 50px;
     float: left;
@@ -43,6 +43,29 @@
   padding: 16px;
   align-items: center;
  
+}
+
+.styled-list {
+  list-style: none; /* Remove default list styling */
+  padding-left: 0; /* Remove default padding */
+  margin-right: 10px; /* Increase right margin for the entire list */
+}
+
+.styled-list li {
+  color: #fff; /* Light color for better contrast */
+  padding-left: 20px; /* Adjust as needed to create space for the bullet */
+  text-indent: -20px; /* Negative indent to align the first line with the rest */
+  margin-bottom: 20px; /* Add more space between each line */
+}
+
+.styled-list li::before {
+  content: ''; /* Add your line image or style here */
+  display: inline-block;
+  width: 10px; /* Width of the line */
+  height: 2px; /* Height of the line */
+  background-color: #fff; /* Line color, ensure it's visible against the background */
+  margin-right: 10px; /* Space between line and text */
+  vertical-align: middle; /* Align with the text */
 }
 
 ion-card {
