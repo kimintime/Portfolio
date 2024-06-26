@@ -93,7 +93,7 @@ export class AppComponent {
   }
 
   openDiploma() {
-    window.open('/assets/diploma.PDF');
+    window.open('/assets/degree.pdf');
   }
 
   openIntegrify() {
